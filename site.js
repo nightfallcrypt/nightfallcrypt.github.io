@@ -10,23 +10,31 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Theme filter (story archive)
+  // Theme filter (story archive) — deep-linkable via /stories#theme-slug
   var filterBar = document.getElementById('theme-filter');
   if (filterBar) {
-    filterBar.addEventListener('click', function (e) {
-      var btn = e.target.closest('.filter-btn');
+    var applyTheme = function (theme) {
+      var btn = filterBar.querySelector('[data-theme="' + theme + '"]');
       if (!btn) return;
       filterBar.querySelectorAll('.filter-btn').forEach(function (b) {
         b.classList.remove('active');
       });
       btn.classList.add('active');
-      var theme = btn.getAttribute('data-theme');
       document.querySelectorAll('.stories-grid .story-card').forEach(function (card) {
         var themes = (card.getAttribute('data-themes') || '').split(' ');
         card.style.display =
           (theme === 'all' || themes.indexOf(theme) !== -1) ? '' : 'none';
       });
+    };
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      var theme = btn.getAttribute('data-theme');
+      applyTheme(theme);
+      history.replaceState(null, '', theme === 'all'
+        ? location.pathname : '#' + theme);
     });
+    if (location.hash) applyTheme(location.hash.slice(1));
   }
 
   // Thumbnails: YouTube 404s thumbnails for private (premiere-pending)
