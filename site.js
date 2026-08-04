@@ -10,6 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Thumbnails: YouTube 404s thumbnails for private (premiere-pending)
+  // videos — hide the broken image; the card degrades to text-only.
+  document.querySelectorAll('.story-thumb').forEach(function (img) {
+    img.addEventListener('error', function () { img.style.display = 'none'; });
+    if (img.complete && img.naturalWidth === 0) img.style.display = 'none';
+  });
+
   // Upcoming premieres: cards carry data-premiere (ISO date with offset).
   // If the premiere is still in the future, swap the month label for a badge.
   var now = new Date();
