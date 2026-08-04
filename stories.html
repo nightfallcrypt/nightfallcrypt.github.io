@@ -15,8 +15,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
   <link href="images/favicon.png" rel="icon" type="image/png"/>
   <link href="images/apple-touch-icon.png" rel="apple-touch-icon"/>
-  <link href="styles.css?v=3" rel="stylesheet"/>
-  <script src="site.js?v=3" defer></script>
+  <link href="styles.css?v=4" rel="stylesheet"/>
+  <script src="site.js?v=4" defer></script>
 </head>
 <body>
   <nav class="nav">
@@ -37,9 +37,22 @@
   </div>
   <section class="section">
     <div class="container">
+      <div class="filter-bar" id="theme-filter">
+      <button class="filter-btn active" data-theme="all">All Stories</button>
+<!-- THEMES:BEGIN -->
+      <button class="filter-btn" data-theme="haunted-spaces">Haunted Spaces</button>
+      <button class="filter-btn" data-theme="stranger-dread">Stranger Dread</button>
+      <button class="filter-btn" data-theme="family-dread">Family Dread</button>
+      <button class="filter-btn" data-theme="paranoia-manipulation">Paranoia &amp; Manipulation</button>
+      <button class="filter-btn" data-theme="childhood-horror">Childhood Horror</button>
+      <button class="filter-btn" data-theme="isolation-horror">Isolation Horror</button>
+      <button class="filter-btn" data-theme="workplace-dread">Workplace Dread</button>
+      <button class="filter-btn" data-theme="digital-horror">Digital Horror</button>
+<!-- THEMES:END -->
+      </div>
       <div class="stories-grid">
 <!-- STORIES:BEGIN -->
-      <a class="story-card" href="https://youtube.com/watch?v=UMBJTpFcNAo" target="_blank" rel="noopener" data-premiere="2026-08-07T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=UMBJTpFcNAo" target="_blank" rel="noopener" data-premiere="2026-08-07T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/UMBJTpFcNAo/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 177</span>
@@ -49,7 +62,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=7xePv4ZX1cc" target="_blank" rel="noopener" data-premiere="2026-08-05T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=7xePv4ZX1cc" target="_blank" rel="noopener" data-premiere="2026-08-05T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/7xePv4ZX1cc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 176</span>
@@ -59,7 +72,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=WN7dcaHOl0U" target="_blank" rel="noopener" data-premiere="2026-07-31T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=WN7dcaHOl0U" target="_blank" rel="noopener" data-premiere="2026-07-31T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/WN7dcaHOl0U/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 175</span>
@@ -69,7 +82,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=wJhf1VSsbYQ" target="_blank" rel="noopener" data-premiere="2026-07-29T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=wJhf1VSsbYQ" target="_blank" rel="noopener" data-premiere="2026-07-29T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/wJhf1VSsbYQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 174</span>
@@ -79,7 +92,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=iBPkDnJO8PU" target="_blank" rel="noopener" data-premiere="2026-07-24T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=iBPkDnJO8PU" target="_blank" rel="noopener" data-premiere="2026-07-24T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/iBPkDnJO8PU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 173</span>
@@ -89,7 +102,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Xo_2_E_NHV0" target="_blank" rel="noopener" data-premiere="2026-07-22T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=Xo_2_E_NHV0" target="_blank" rel="noopener" data-premiere="2026-07-22T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Xo_2_E_NHV0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 172</span>
@@ -99,7 +112,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=NmsuGoU-yzU" target="_blank" rel="noopener" data-premiere="2026-07-17T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=NmsuGoU-yzU" target="_blank" rel="noopener" data-premiere="2026-07-17T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/NmsuGoU-yzU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 171</span>
@@ -109,7 +122,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=x71vkJz2-zo" target="_blank" rel="noopener" data-premiere="2026-07-15T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=x71vkJz2-zo" target="_blank" rel="noopener" data-premiere="2026-07-15T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/x71vkJz2-zo/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 170</span>
@@ -119,7 +132,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=IDTTrC7DUoM" target="_blank" rel="noopener" data-premiere="2026-07-10T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=IDTTrC7DUoM" target="_blank" rel="noopener" data-premiere="2026-07-10T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/IDTTrC7DUoM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 169</span>
@@ -129,7 +142,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=4YY_fYogbYw" target="_blank" rel="noopener" data-premiere="2026-07-08T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=4YY_fYogbYw" target="_blank" rel="noopener" data-premiere="2026-07-08T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/4YY_fYogbYw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 168</span>
@@ -139,7 +152,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=HAXuN0wqEbA" target="_blank" rel="noopener" data-premiere="2026-07-03T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=HAXuN0wqEbA" target="_blank" rel="noopener" data-premiere="2026-07-03T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/HAXuN0wqEbA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 167</span>
@@ -149,7 +162,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=O0nWvhlX7QU" target="_blank" rel="noopener" data-premiere="2026-07-01T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=O0nWvhlX7QU" target="_blank" rel="noopener" data-premiere="2026-07-01T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/O0nWvhlX7QU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 166</span>
@@ -159,7 +172,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=TyzVWTVIxJ4" target="_blank" rel="noopener" data-premiere="2026-06-26T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=TyzVWTVIxJ4" target="_blank" rel="noopener" data-premiere="2026-06-26T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/TyzVWTVIxJ4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 165</span>
@@ -169,7 +182,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=rhF-wDqZki0" target="_blank" rel="noopener" data-premiere="2026-06-24T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=rhF-wDqZki0" target="_blank" rel="noopener" data-premiere="2026-06-24T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/rhF-wDqZki0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 164</span>
@@ -179,7 +192,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=lOr_RadP6e8" target="_blank" rel="noopener" data-premiere="2026-06-19T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=lOr_RadP6e8" target="_blank" rel="noopener" data-premiere="2026-06-19T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/lOr_RadP6e8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 163</span>
@@ -189,7 +202,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BLOjzpnCi80" target="_blank" rel="noopener" data-premiere="2026-06-17T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=BLOjzpnCi80" target="_blank" rel="noopener" data-premiere="2026-06-17T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BLOjzpnCi80/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 162</span>
@@ -199,7 +212,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=KNyOYDARniQ" target="_blank" rel="noopener" data-premiere="2026-06-12T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=KNyOYDARniQ" target="_blank" rel="noopener" data-premiere="2026-06-12T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/KNyOYDARniQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 161</span>
@@ -209,7 +222,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=PQJfBcfHRjI" target="_blank" rel="noopener" data-premiere="2026-06-10T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=PQJfBcfHRjI" target="_blank" rel="noopener" data-premiere="2026-06-10T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/PQJfBcfHRjI/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 160</span>
@@ -219,7 +232,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=eRMBAXtkhk8" target="_blank" rel="noopener" data-premiere="2026-06-05T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=eRMBAXtkhk8" target="_blank" rel="noopener" data-premiere="2026-06-05T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/eRMBAXtkhk8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 159</span>
@@ -229,7 +242,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=8AojkMt-1wQ" target="_blank" rel="noopener" data-premiere="2026-06-03T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=8AojkMt-1wQ" target="_blank" rel="noopener" data-premiere="2026-06-03T20:00:00-05:00" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/8AojkMt-1wQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 158</span>
@@ -239,7 +252,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=pYREFrKrw5E" target="_blank" rel="noopener" data-premiere="2026-05-29T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=pYREFrKrw5E" target="_blank" rel="noopener" data-premiere="2026-05-29T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/pYREFrKrw5E/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 157</span>
@@ -249,7 +262,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=sQnox3fq9eM" target="_blank" rel="noopener" data-premiere="2026-05-27T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=sQnox3fq9eM" target="_blank" rel="noopener" data-premiere="2026-05-27T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/sQnox3fq9eM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 156</span>
@@ -259,7 +272,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=YDrasfzmt8s" target="_blank" rel="noopener" data-premiere="2026-05-15T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=YDrasfzmt8s" target="_blank" rel="noopener" data-premiere="2026-05-15T20:00:00-05:00" data-themes="workplace-dread isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/YDrasfzmt8s/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 155</span>
@@ -269,7 +282,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=j2gs0mwMwH8" target="_blank" rel="noopener" data-premiere="2026-05-13T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=j2gs0mwMwH8" target="_blank" rel="noopener" data-premiere="2026-05-13T20:00:00-05:00" data-themes="stranger-dread childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/j2gs0mwMwH8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 154</span>
@@ -279,7 +292,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BQ3MNFMecnU" target="_blank" rel="noopener" data-premiere="2026-05-08T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=BQ3MNFMecnU" target="_blank" rel="noopener" data-premiere="2026-05-08T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BQ3MNFMecnU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 153</span>
@@ -289,7 +302,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=cnrnC9PTIm4" target="_blank" rel="noopener" data-premiere="2026-05-06T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=cnrnC9PTIm4" target="_blank" rel="noopener" data-premiere="2026-05-06T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/cnrnC9PTIm4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 152</span>
@@ -299,7 +312,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=L0j_NW4HF7w" target="_blank" rel="noopener" data-premiere="2026-05-01T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=L0j_NW4HF7w" target="_blank" rel="noopener" data-premiere="2026-05-01T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/L0j_NW4HF7w/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 151</span>
@@ -309,7 +322,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=C1dqFVj1il8" target="_blank" rel="noopener" data-premiere="2026-04-29T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=C1dqFVj1il8" target="_blank" rel="noopener" data-premiere="2026-04-29T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/C1dqFVj1il8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 150</span>
@@ -319,7 +332,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=890Wnc9XrLE" target="_blank" rel="noopener" data-premiere="2026-04-24T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=890Wnc9XrLE" target="_blank" rel="noopener" data-premiere="2026-04-24T20:00:00-05:00" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/890Wnc9XrLE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 149</span>
@@ -329,7 +342,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=C3GAX9aPhQ0" target="_blank" rel="noopener" data-premiere="2026-04-22T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=C3GAX9aPhQ0" target="_blank" rel="noopener" data-premiere="2026-04-22T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/C3GAX9aPhQ0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 148</span>
@@ -339,7 +352,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=h1F6Eu-xyvM" target="_blank" rel="noopener" data-premiere="2026-04-17T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=h1F6Eu-xyvM" target="_blank" rel="noopener" data-premiere="2026-04-17T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/h1F6Eu-xyvM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 147</span>
@@ -349,7 +362,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=DBCxBloDQl0" target="_blank" rel="noopener" data-premiere="2026-04-15T20:00:00-05:00">
+      <a class="story-card" href="https://youtube.com/watch?v=DBCxBloDQl0" target="_blank" rel="noopener" data-premiere="2026-04-15T20:00:00-05:00" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/DBCxBloDQl0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 146</span>
@@ -359,7 +372,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=8QiqkHXGO8Y" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=8QiqkHXGO8Y" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/8QiqkHXGO8Y/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 145</span>
@@ -369,7 +382,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=CZ-bbsvQWzc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=CZ-bbsvQWzc" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/CZ-bbsvQWzc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 144</span>
@@ -379,7 +392,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=gT5WVc8xUyQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=gT5WVc8xUyQ" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/gT5WVc8xUyQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 143</span>
@@ -389,7 +402,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=NIQ8VJRPbe4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=NIQ8VJRPbe4" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/NIQ8VJRPbe4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 142</span>
@@ -399,7 +412,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=-FG6BK85dkE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=-FG6BK85dkE" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/-FG6BK85dkE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 141</span>
@@ -409,7 +422,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=SSEcD3_I82U" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=SSEcD3_I82U" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/SSEcD3_I82U/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 140</span>
@@ -419,7 +432,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=0owqzQJ6fdg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=0owqzQJ6fdg" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/0owqzQJ6fdg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 139</span>
@@ -429,7 +442,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=RK70AexpC2c" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=RK70AexpC2c" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/RK70AexpC2c/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 138</span>
@@ -439,7 +452,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=nqtfsLzITtY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=nqtfsLzITtY" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/nqtfsLzITtY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 137</span>
@@ -449,7 +462,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5vqMwyuIDsc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5vqMwyuIDsc" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5vqMwyuIDsc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 136</span>
@@ -459,7 +472,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=4UysncDofrk" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=4UysncDofrk" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/4UysncDofrk/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 135</span>
@@ -469,7 +482,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=PwloaN6h_H8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=PwloaN6h_H8" target="_blank" rel="noopener" data-themes="childhood-horror haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/PwloaN6h_H8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 134</span>
@@ -479,7 +492,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=h1JYCpPukcs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=h1JYCpPukcs" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/h1JYCpPukcs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 133</span>
@@ -489,7 +502,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=zBQWHP4twqM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=zBQWHP4twqM" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/zBQWHP4twqM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 132</span>
@@ -499,7 +512,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=MYHge5_ALCA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=MYHge5_ALCA" target="_blank" rel="noopener" data-themes="family-dread haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/MYHge5_ALCA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 131</span>
@@ -509,7 +522,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=KaTFs1lxW0Y" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=KaTFs1lxW0Y" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/KaTFs1lxW0Y/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 130</span>
@@ -519,7 +532,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=YvgqrZ_oxYw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=YvgqrZ_oxYw" target="_blank" rel="noopener" data-themes="childhood-horror haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/YvgqrZ_oxYw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 129</span>
@@ -529,7 +542,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=X4HMstit0OU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=X4HMstit0OU" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/X4HMstit0OU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 128</span>
@@ -539,7 +552,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=04SCl8Gdr14" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=04SCl8Gdr14" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/04SCl8Gdr14/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 127</span>
@@ -549,7 +562,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=rDumsg7jwRw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=rDumsg7jwRw" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/rDumsg7jwRw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 126</span>
@@ -559,7 +572,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=XCIfwWBXMQY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=XCIfwWBXMQY" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/XCIfwWBXMQY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 125</span>
@@ -569,7 +582,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=MKdJbZPFrlw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=MKdJbZPFrlw" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/MKdJbZPFrlw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 124</span>
@@ -579,7 +592,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=pemRhJtmK_U" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=pemRhJtmK_U" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/pemRhJtmK_U/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 123</span>
@@ -589,7 +602,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=9u-715mGI10" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=9u-715mGI10" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/9u-715mGI10/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 122</span>
@@ -599,7 +612,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=xCpdT_IAALk" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=xCpdT_IAALk" target="_blank" rel="noopener" data-themes="workplace-dread haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/xCpdT_IAALk/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 121</span>
@@ -609,7 +622,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=7m43iFSh_5c" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=7m43iFSh_5c" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/7m43iFSh_5c/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 120</span>
@@ -619,7 +632,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=6tLOVYKjh1E" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=6tLOVYKjh1E" target="_blank" rel="noopener" data-themes="workplace-dread haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/6tLOVYKjh1E/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 119</span>
@@ -629,7 +642,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=698Y3tSS3f4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=698Y3tSS3f4" target="_blank" rel="noopener" data-themes="stranger-dread childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/698Y3tSS3f4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 118</span>
@@ -639,7 +652,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=jpCOJtUTpoE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=jpCOJtUTpoE" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/jpCOJtUTpoE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 117</span>
@@ -649,7 +662,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=aeLXqWaUAL8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=aeLXqWaUAL8" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/aeLXqWaUAL8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 116</span>
@@ -659,7 +672,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=DPaIiDdyQS8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=DPaIiDdyQS8" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/DPaIiDdyQS8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 115</span>
@@ -669,7 +682,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=LJq1ZE3PIsw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=LJq1ZE3PIsw" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/LJq1ZE3PIsw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 114</span>
@@ -679,7 +692,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=3duonE9nL3c" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=3duonE9nL3c" target="_blank" rel="noopener" data-themes="stranger-dread childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/3duonE9nL3c/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 113</span>
@@ -689,7 +702,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=8el-Hgm_2IY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=8el-Hgm_2IY" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/8el-Hgm_2IY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 112</span>
@@ -699,7 +712,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=NRVFcNS73HY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=NRVFcNS73HY" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/NRVFcNS73HY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 111</span>
@@ -709,7 +722,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=N6_zynGT1d8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=N6_zynGT1d8" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/N6_zynGT1d8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 110</span>
@@ -719,7 +732,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=xC3h8JTuN7U" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=xC3h8JTuN7U" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/xC3h8JTuN7U/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 109</span>
@@ -729,7 +742,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=j6SsRyUF73k" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=j6SsRyUF73k" target="_blank" rel="noopener" data-themes="isolation-horror haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/j6SsRyUF73k/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 108</span>
@@ -739,7 +752,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=4zY0Ay4-W8E" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=4zY0Ay4-W8E" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/4zY0Ay4-W8E/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 107</span>
@@ -749,7 +762,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=89-MlNMLa8E" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=89-MlNMLa8E" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/89-MlNMLa8E/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 106</span>
@@ -759,7 +772,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=1gQRH6ufp6w" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=1gQRH6ufp6w" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/1gQRH6ufp6w/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 105</span>
@@ -769,7 +782,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=pV_BXsYyR4o" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=pV_BXsYyR4o" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/pV_BXsYyR4o/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 104</span>
@@ -779,7 +792,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=TtWeUsSSfqA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=TtWeUsSSfqA" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/TtWeUsSSfqA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 103</span>
@@ -789,7 +802,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=WzbVhrtigM4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=WzbVhrtigM4" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/WzbVhrtigM4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 102</span>
@@ -799,7 +812,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BFqnAYsrEmA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=BFqnAYsrEmA" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BFqnAYsrEmA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 101</span>
@@ -809,7 +822,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=fGZWFdNqhQs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=fGZWFdNqhQs" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/fGZWFdNqhQs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 100</span>
@@ -819,7 +832,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=7SjXhQt58Qk" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=7SjXhQt58Qk" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/7SjXhQt58Qk/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 99</span>
@@ -829,7 +842,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=31hQATnEPKs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=31hQATnEPKs" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/31hQATnEPKs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 98</span>
@@ -839,7 +852,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=GG0lZVrYiRQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=GG0lZVrYiRQ" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/GG0lZVrYiRQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 97</span>
@@ -849,7 +862,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5EJzuLUTj6Y" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5EJzuLUTj6Y" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5EJzuLUTj6Y/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 96</span>
@@ -859,7 +872,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=sSGKB1AJwYA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=sSGKB1AJwYA" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/sSGKB1AJwYA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 95</span>
@@ -869,7 +882,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=JWNRbokyUeM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=JWNRbokyUeM" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/JWNRbokyUeM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 94</span>
@@ -879,7 +892,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=jjVdBeKFMAw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=jjVdBeKFMAw" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/jjVdBeKFMAw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 93</span>
@@ -889,7 +902,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=bZdPu-9rdU0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=bZdPu-9rdU0" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/bZdPu-9rdU0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 92</span>
@@ -899,7 +912,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=tMbfUxSxXRs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=tMbfUxSxXRs" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/tMbfUxSxXRs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 91</span>
@@ -909,7 +922,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=FsnTuSpIqHM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=FsnTuSpIqHM" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/FsnTuSpIqHM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 90</span>
@@ -919,7 +932,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=IeaQQRkihmA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=IeaQQRkihmA" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/IeaQQRkihmA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 89</span>
@@ -929,7 +942,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Xa-jvKD35fc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Xa-jvKD35fc" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Xa-jvKD35fc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 88</span>
@@ -939,7 +952,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BKcRCwYEJ90" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=BKcRCwYEJ90" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BKcRCwYEJ90/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 87</span>
@@ -949,7 +962,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=KPw7KkqN3Bo" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=KPw7KkqN3Bo" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/KPw7KkqN3Bo/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 86</span>
@@ -959,7 +972,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=DlQpW8qswH8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=DlQpW8qswH8" target="_blank" rel="noopener" data-themes="childhood-horror haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/DlQpW8qswH8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 85</span>
@@ -969,7 +982,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=WXmkh36Sbc8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=WXmkh36Sbc8" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/WXmkh36Sbc8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 84</span>
@@ -979,7 +992,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=njas4B0OqcU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=njas4B0OqcU" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/njas4B0OqcU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 83</span>
@@ -989,7 +1002,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5voYHo2k_BE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5voYHo2k_BE" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5voYHo2k_BE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 82</span>
@@ -999,7 +1012,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=_DUVoCOgK54" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=_DUVoCOgK54" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/_DUVoCOgK54/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 81</span>
@@ -1009,7 +1022,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=97ZX2mUhWwc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=97ZX2mUhWwc" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/97ZX2mUhWwc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 80</span>
@@ -1019,7 +1032,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=48FDpoBQwjU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=48FDpoBQwjU" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/48FDpoBQwjU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 79</span>
@@ -1029,7 +1042,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=9wZ3CEZ_krY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=9wZ3CEZ_krY" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/9wZ3CEZ_krY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 78</span>
@@ -1039,7 +1052,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=O0zeRFkJU1I" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=O0zeRFkJU1I" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/O0zeRFkJU1I/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 77</span>
@@ -1049,7 +1062,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=d_8aCiOslwE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=d_8aCiOslwE" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/d_8aCiOslwE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 76</span>
@@ -1059,7 +1072,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=GsjJcuWBIys" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=GsjJcuWBIys" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/GsjJcuWBIys/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 75</span>
@@ -1069,7 +1082,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=dhUIVPRABn0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=dhUIVPRABn0" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/dhUIVPRABn0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 74</span>
@@ -1079,7 +1092,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=bjlxVDWCyh4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=bjlxVDWCyh4" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/bjlxVDWCyh4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 73</span>
@@ -1089,7 +1102,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=bafvTfPofNc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=bafvTfPofNc" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/bafvTfPofNc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 72</span>
@@ -1099,7 +1112,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=rghIYdOg1kQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=rghIYdOg1kQ" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/rghIYdOg1kQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 71</span>
@@ -1109,7 +1122,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=3KAhex2IBi0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=3KAhex2IBi0" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/3KAhex2IBi0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 70</span>
@@ -1119,7 +1132,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=R3njGFd25zg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=R3njGFd25zg" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/R3njGFd25zg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 69</span>
@@ -1129,7 +1142,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=0qTgC9sXXrg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=0qTgC9sXXrg" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/0qTgC9sXXrg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 68</span>
@@ -1139,7 +1152,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=QXx53KB9H6o" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=QXx53KB9H6o" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/QXx53KB9H6o/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 67</span>
@@ -1149,7 +1162,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=GfBseH-rrLA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=GfBseH-rrLA" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/GfBseH-rrLA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 66</span>
@@ -1159,7 +1172,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=skAV45Pb0jc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=skAV45Pb0jc" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/skAV45Pb0jc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 65</span>
@@ -1169,7 +1182,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=ZWKc9nmeBRs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=ZWKc9nmeBRs" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/ZWKc9nmeBRs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 64</span>
@@ -1179,7 +1192,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Rdms4T5rPHU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Rdms4T5rPHU" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Rdms4T5rPHU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 63</span>
@@ -1189,7 +1202,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=JcsbR3eoigY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=JcsbR3eoigY" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/JcsbR3eoigY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 62</span>
@@ -1199,7 +1212,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=4VNxJ3l5_uE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=4VNxJ3l5_uE" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/4VNxJ3l5_uE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 61</span>
@@ -1209,7 +1222,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=QAvdYFD4h6o" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=QAvdYFD4h6o" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/QAvdYFD4h6o/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 60</span>
@@ -1219,7 +1232,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Nl_KPgUjKjU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Nl_KPgUjKjU" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Nl_KPgUjKjU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 59</span>
@@ -1229,7 +1242,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=EfSMXxYKoU0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=EfSMXxYKoU0" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/EfSMXxYKoU0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 58</span>
@@ -1239,7 +1252,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BOjD1uXh3gQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=BOjD1uXh3gQ" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BOjD1uXh3gQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 57</span>
@@ -1249,7 +1262,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=4AWU4rxyOwE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=4AWU4rxyOwE" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/4AWU4rxyOwE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 56</span>
@@ -1259,7 +1272,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=s37mQNoLRnY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=s37mQNoLRnY" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/s37mQNoLRnY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 55</span>
@@ -1269,7 +1282,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=TfqkfrhQB4w" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=TfqkfrhQB4w" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/TfqkfrhQB4w/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 54</span>
@@ -1279,7 +1292,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=snvPaPEuRHo" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=snvPaPEuRHo" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/snvPaPEuRHo/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 53</span>
@@ -1289,7 +1302,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Owa4ej7cDfA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Owa4ej7cDfA" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Owa4ej7cDfA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 52</span>
@@ -1299,7 +1312,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=RCy-CbYSjYE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=RCy-CbYSjYE" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/RCy-CbYSjYE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 51</span>
@@ -1309,7 +1322,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BsceWDiMmN4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=BsceWDiMmN4" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BsceWDiMmN4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 50</span>
@@ -1319,7 +1332,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=mlvUK2NHwYM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=mlvUK2NHwYM" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/mlvUK2NHwYM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 49</span>
@@ -1329,7 +1342,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=lGwrbq8qbsI" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=lGwrbq8qbsI" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/lGwrbq8qbsI/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 48</span>
@@ -1339,7 +1352,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=uG0Z8QDIld4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=uG0Z8QDIld4" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/uG0Z8QDIld4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 47</span>
@@ -1349,7 +1362,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=04ahwBvure8" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=04ahwBvure8" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/04ahwBvure8/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 46</span>
@@ -1359,7 +1372,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=OyokUU67h1Y" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=OyokUU67h1Y" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/OyokUU67h1Y/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 45</span>
@@ -1369,7 +1382,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=O_m3EwuVkNI" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=O_m3EwuVkNI" target="_blank" rel="noopener" data-themes="family-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/O_m3EwuVkNI/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 44</span>
@@ -1379,7 +1392,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Hi6l5SdiG-I" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Hi6l5SdiG-I" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Hi6l5SdiG-I/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 43</span>
@@ -1389,7 +1402,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=RsWTY5E6kxc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=RsWTY5E6kxc" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/RsWTY5E6kxc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 42</span>
@@ -1399,7 +1412,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=ROujppyeR5A" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=ROujppyeR5A" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/ROujppyeR5A/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 41</span>
@@ -1409,7 +1422,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=cvVau3_ICzc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=cvVau3_ICzc" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/cvVau3_ICzc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 40</span>
@@ -1419,7 +1432,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=FtUbRzeOEmE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=FtUbRzeOEmE" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/FtUbRzeOEmE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 39</span>
@@ -1429,7 +1442,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=M98QrTE-y1k" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=M98QrTE-y1k" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/M98QrTE-y1k/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 38</span>
@@ -1439,7 +1452,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Gdc-vmNECPY" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Gdc-vmNECPY" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Gdc-vmNECPY/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 37</span>
@@ -1449,7 +1462,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=wBvpwICeedM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=wBvpwICeedM" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/wBvpwICeedM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 36</span>
@@ -1459,7 +1472,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=11AT3-fxS6E" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=11AT3-fxS6E" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/11AT3-fxS6E/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 35</span>
@@ -1469,7 +1482,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=FEMEcfXaDYA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=FEMEcfXaDYA" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/FEMEcfXaDYA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 34</span>
@@ -1479,7 +1492,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=61Da9V-7YNw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=61Da9V-7YNw" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/61Da9V-7YNw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 33</span>
@@ -1489,7 +1502,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=JlQuP-tmbLU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=JlQuP-tmbLU" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/JlQuP-tmbLU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 32</span>
@@ -1499,7 +1512,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=xbGcFPldBJ0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=xbGcFPldBJ0" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/xbGcFPldBJ0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 31</span>
@@ -1509,7 +1522,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Vx-avzTr-4Y" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Vx-avzTr-4Y" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Vx-avzTr-4Y/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 30</span>
@@ -1519,7 +1532,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5ARvmj511-c" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5ARvmj511-c" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5ARvmj511-c/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 29</span>
@@ -1529,7 +1542,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=K8QYU4lrmXw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=K8QYU4lrmXw" target="_blank" rel="noopener" data-themes="childhood-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/K8QYU4lrmXw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 28</span>
@@ -1539,7 +1552,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=P75ZiNGsT8M" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=P75ZiNGsT8M" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/P75ZiNGsT8M/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 27</span>
@@ -1549,7 +1562,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=w1oT9O5n1qg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=w1oT9O5n1qg" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/w1oT9O5n1qg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 26</span>
@@ -1559,7 +1572,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=BlswOAjBFvw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=BlswOAjBFvw" target="_blank" rel="noopener" data-themes="digital-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/BlswOAjBFvw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 25</span>
@@ -1569,7 +1582,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=PcvFONdzVMA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=PcvFONdzVMA" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/PcvFONdzVMA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 24</span>
@@ -1579,7 +1592,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=a-W6tOVks6s" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=a-W6tOVks6s" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/a-W6tOVks6s/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 23</span>
@@ -1589,7 +1602,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=7YOGrHwaio4" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=7YOGrHwaio4" target="_blank" rel="noopener" data-themes="digital-horror haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/7YOGrHwaio4/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 22</span>
@@ -1599,7 +1612,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=uCZXDgyR2uI" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=uCZXDgyR2uI" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/uCZXDgyR2uI/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 21</span>
@@ -1609,7 +1622,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=tYJM8mjptjI" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=tYJM8mjptjI" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/tYJM8mjptjI/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 20</span>
@@ -1619,7 +1632,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5cOMqLhk3sQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5cOMqLhk3sQ" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5cOMqLhk3sQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 19</span>
@@ -1629,7 +1642,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=VDhPjHZxgMU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=VDhPjHZxgMU" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/VDhPjHZxgMU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 18</span>
@@ -1639,7 +1652,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=kw9XUas5FDM" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=kw9XUas5FDM" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/kw9XUas5FDM/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 17</span>
@@ -1649,7 +1662,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=uWAHEJxj7qg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=uWAHEJxj7qg" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/uWAHEJxj7qg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 16</span>
@@ -1659,7 +1672,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=-hdxWf8MD5k" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=-hdxWf8MD5k" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/-hdxWf8MD5k/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 15</span>
@@ -1669,7 +1682,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=kHJhY9OFmcw" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=kHJhY9OFmcw" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/kHJhY9OFmcw/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 14</span>
@@ -1679,7 +1692,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=PpiTlUhZGgU" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=PpiTlUhZGgU" target="_blank" rel="noopener" data-themes="workplace-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/PpiTlUhZGgU/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 13</span>
@@ -1689,7 +1702,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=5yYbQ5Qo7fk" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=5yYbQ5Qo7fk" target="_blank" rel="noopener" data-themes="workplace-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/5yYbQ5Qo7fk/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 12</span>
@@ -1699,7 +1712,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=GJTWZakK5Yo" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=GJTWZakK5Yo" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/GJTWZakK5Yo/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 11</span>
@@ -1709,7 +1722,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=GRs9BAYjTcE" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=GRs9BAYjTcE" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/GRs9BAYjTcE/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 10</span>
@@ -1719,7 +1732,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=i3EPcjRAggg" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=i3EPcjRAggg" target="_blank" rel="noopener" data-themes="paranoia-manipulation">
         <img class="story-thumb" src="https://i.ytimg.com/vi/i3EPcjRAggg/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 9</span>
@@ -1729,7 +1742,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=cHaEhW2QuVQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=cHaEhW2QuVQ" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/cHaEhW2QuVQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 8</span>
@@ -1739,7 +1752,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=Yxiq-YQXwJs" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=Yxiq-YQXwJs" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/Yxiq-YQXwJs/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 7</span>
@@ -1749,7 +1762,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=ognSCA14iIA" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=ognSCA14iIA" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/ognSCA14iIA/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 6</span>
@@ -1759,7 +1772,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=qef3fhuCndc" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=qef3fhuCndc" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/qef3fhuCndc/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 5</span>
@@ -1769,7 +1782,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=CeWTyy5BvsQ" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=CeWTyy5BvsQ" target="_blank" rel="noopener" data-themes="workplace-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/CeWTyy5BvsQ/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 4</span>
@@ -1779,7 +1792,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=EZE_Zkr0m_M" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=EZE_Zkr0m_M" target="_blank" rel="noopener" data-themes="isolation-horror">
         <img class="story-thumb" src="https://i.ytimg.com/vi/EZE_Zkr0m_M/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 3</span>
@@ -1789,7 +1802,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=J3m_x67DHG0" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=J3m_x67DHG0" target="_blank" rel="noopener" data-themes="stranger-dread">
         <img class="story-thumb" src="https://i.ytimg.com/vi/J3m_x67DHG0/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 2</span>
@@ -1799,7 +1812,7 @@
           <span class="story-watch">▶ Watch on YouTube</span>
         </div>
       </a>
-      <a class="story-card" href="https://youtube.com/watch?v=bhT8_9IZX60" target="_blank" rel="noopener">
+      <a class="story-card" href="https://youtube.com/watch?v=bhT8_9IZX60" target="_blank" rel="noopener" data-themes="haunted-spaces">
         <img class="story-thumb" src="https://i.ytimg.com/vi/bhT8_9IZX60/mqdefault.jpg" alt="" loading="lazy"/>
         <div class="story-card-body">
           <span class="story-number">No. 1</span>

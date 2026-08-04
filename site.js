@@ -10,6 +10,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Theme filter (story archive)
+  var filterBar = document.getElementById('theme-filter');
+  if (filterBar) {
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      filterBar.querySelectorAll('.filter-btn').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+      var theme = btn.getAttribute('data-theme');
+      document.querySelectorAll('.stories-grid .story-card').forEach(function (card) {
+        var themes = (card.getAttribute('data-themes') || '').split(' ');
+        card.style.display =
+          (theme === 'all' || themes.indexOf(theme) !== -1) ? '' : 'none';
+      });
+    });
+  }
+
   // Thumbnails: YouTube 404s thumbnails for private (premiere-pending)
   // videos — hide the broken image; the card degrades to text-only.
   document.querySelectorAll('.story-thumb').forEach(function (img) {
