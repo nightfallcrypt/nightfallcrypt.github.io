@@ -15,8 +15,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
   <link href="images/favicon.png" rel="icon" type="image/png"/>
   <link href="images/apple-touch-icon.png" rel="apple-touch-icon"/>
-  <link href="styles.css?v=5" rel="stylesheet"/>
-  <script src="site.js?v=5" defer></script>
+  <link href="styles.css?v=6" rel="stylesheet"/>
+  <script src="site.js?v=6" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -122,7 +122,16 @@
         <a class="btn btn-secondary" href="https://www.facebook.com/NightfallCrypt/" target="_blank" rel="noopener">Follow on Facebook</a>
         <a class="btn btn-outline" href="/about">About the Channel</a>
       </div>
-<!-- NEWSLETTER:PLACEHOLDER — email signup form goes here once a provider account exists -->
+<!-- Newsletter signup: remove the `hidden` attribute once the Buttondown
+     account (buttondown.com/nightfallcrypt) exists and is verified. -->
+      <div class="newsletter" hidden>
+        <p class="newsletter-lead">Or get a whisper in your inbox when a new story drops:</p>
+        <form action="https://buttondown.com/api/emails/embed-subscribe/nightfallcrypt" method="post" target="_blank" class="newsletter-form">
+          <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input" aria-label="Email address"/>
+          <button type="submit" class="btn btn-primary">Join the Crypt</button>
+        </form>
+        <p class="newsletter-fine">No spam. Only stories. Leave whenever you dare.</p>
+      </div>
     </div>
   </section>
 
