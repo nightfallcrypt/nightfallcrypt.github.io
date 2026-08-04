@@ -1,3 +1,5 @@
+Sitemap: https://nightfallcrypt.com/sitemap.xml
+
 User-agent: *
 Allow: /
 
