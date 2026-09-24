@@ -1,6 +1,17 @@
 {
  "stories": [
   {
+   "number": 190,
+   "title": "Whatever Came Home From the Lake",
+   "month": "Sep 2026",
+   "youtube": "https://youtube.com/watch?v=5mknGlExrwQ",
+   "premiere": "2026-09-23T20:00:00-05:00",
+   "hook": "He'd been at the lake since Friday. Three years, same ritual — and every year he calls me from the dock when he's driving home. This time he didn't call, and I told…",
+   "themes": [
+    "Stranger Dread"
+   ]
+  },
+  {
    "number": 189,
    "title": "Come Find Me",
    "month": "Sep 2026",
