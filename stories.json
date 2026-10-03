@@ -1,6 +1,17 @@
 {
  "stories": [
   {
+   "number": 193,
+   "title": "The Waiting Room",
+   "month": "Oct 2026",
+   "youtube": "https://youtube.com/watch?v=06rmkY_1OV0",
+   "premiere": "2026-10-02T20:00:00-05:00",
+   "hook": "I was three weeks past my sister's funeral when a man from the support group pressed a card into my hand and told me she'd saved his life. I wanted to be saved. That's…",
+   "themes": [
+    "Paranoia & Manipulation"
+   ]
+  },
+  {
    "number": 192,
    "title": "The Apology",
    "month": "Sep 2026",
