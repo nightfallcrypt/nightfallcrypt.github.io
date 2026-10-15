@@ -1,6 +1,17 @@
 {
  "stories": [
   {
+   "number": 196,
+   "title": "The Last Train Has Gone",
+   "month": "Oct 2026",
+   "youtube": "https://youtube.com/watch?v=_THuD0Pvi54",
+   "premiere": "2026-10-14T20:00:00-05:00",
+   "hook": "The job was simple. Sit in the booking office of a station a mile outside the village. Keep the lamp lit. Count the people who appear on the platform after the last…",
+   "themes": [
+    "Family Dread"
+   ]
+  },
+  {
    "number": 195,
    "title": "She Kept Asking Me to Check the Cellar",
    "month": "Oct 2026",
